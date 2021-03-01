@@ -35,6 +35,19 @@ In the context of testing the main features are:
 - [Mainnet forking](https://hardhat.org/guides/mainnet-forking.html)
 - [Waffle Integration](https://hardhat.org/plugins/nomiclabs-hardhat-waffle.html)
 
+### Brownie
+[Brownie](https://github.com/eth-brownie/brownie) is a Python-based development and testing framework for smart contracts targeting the EVM.
+
+It comes with many cool features like:
+- supports contracts written in solidity or vyper
+- Mainnet forking via [ganache-cli](https://github.com/trufflesuite/ganache-cli)
+- Interactive REPL: `brownie console`
+- Usage of pytest
+- [property-based](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python) testing
+- [stateful](https://eth-brownie.readthedocs.io/en/stable/tests-hypothesis-stateful.html) testing
+- [coverage evaluation](https://eth-brownie.readthedocs.io/en/stable/tests-coverage.html)
+- [MythX](https://eth-brownie.readthedocs.io/en/stable/tests-security-analysis.html) integration
+
 ## Examples
 
 [Mainframe HQ](https://github.com/hifi-finance/hifi-protocol/tree/main/test)
